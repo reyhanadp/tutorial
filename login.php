@@ -1,5 +1,6 @@
 <?php
 		session_start();
+		echo "";
 		require ('koneksi.php');
 		
 		$link = koneksi_db();
